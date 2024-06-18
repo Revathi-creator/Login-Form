@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(90deg,rgba(2,0,36,0.7)0%,rgba(9,9,121,0.7) 35%,rgba(0,212,255,0.7)100%);
+
+}
+
+/*------------ Login container ------------*/
+
+
+.box-area {
+  width: 930px;
+ 
+  
+}
+
+
+/*------------ Right box ------------*/
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder {
+  font-size: 16px;
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+.rounded-5 {
+  border-radius: 30px;
+}
+.hero_img {
+  background-image: url("images/User.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.form_container{
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); 
+}
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  .right-box {
+    padding: 20px;
+  }
+}
